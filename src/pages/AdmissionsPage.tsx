@@ -1,4 +1,5 @@
 import React from 'react';
+import RegistrationForm from '../components/ui/RegistrationForm';
 
 const AdmissionsPage = () => {
   return (
@@ -12,6 +13,11 @@ const AdmissionsPage = () => {
           Our admissions process is designed to be thorough yet accessible, ensuring we find 
           students who will thrive in our academic environment.
         </p>
+      </section>
+
+      <section className="bg-blue-50 rounded-lg p-8 mb-12">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-6">Apply Now</h2>
+        <RegistrationForm />
       </section>
 
       <section className="grid md:grid-cols-2 gap-8 mb-12">

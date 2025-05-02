@@ -26,6 +26,22 @@ export const programs: Program[] = [
         description: "Implementation and analysis of fundamental data structures and algorithms, including lists, stacks, queues, trees, and graphs.",
         credits: 4,
         prerequisites: ["CS101"]
+      },
+      {
+        id: "cs301",
+        code: "CS301",
+        title: "Operating Systems",
+        description: "Study of operating system concepts, including process management, memory management, file systems, and concurrency.",
+        credits: 4,
+        prerequisites: ["CS201"]
+      },
+      {
+        id: "cs401",
+        code: "CS401",
+        title: "Software Engineering",
+        description: "Principles and practices of software engineering, including requirements analysis, design, testing, and maintenance.",
+        credits: 3,
+        prerequisites: ["CS301"]
       }
     ]
   },
@@ -54,6 +70,22 @@ export const programs: Program[] = [
         description: "Introduction to machine learning algorithms, techniques, and applications, including supervised and unsupervised learning.",
         credits: 4,
         prerequisites: ["DS101", "MATH201"]
+      },
+      {
+        id: "ds301",
+        code: "DS301",
+        title: "Big Data Analytics",
+        description: "Techniques and tools for processing and analyzing large-scale datasets, including Hadoop and Spark.",
+        credits: 4,
+        prerequisites: ["DS201"]
+      },
+      {
+        id: "ds401",
+        code: "DS401",
+        title: "Data Visualization",
+        description: "Principles and tools for creating effective data visualizations to communicate insights.",
+        credits: 3,
+        prerequisites: ["DS301"]
       }
     ]
   },
